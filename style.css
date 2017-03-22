@@ -1,0 +1,104 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #343434;
+}
+
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+
+header{
+	background-color: #35424a;
+	color: #ffffff;
+	min-height: 70px;
+	border-bottom: #e8491d 3px solid;
+}
+
+
+.menubar h1{
+	float: left;
+	cursor: pointer;
+	font-family: arial,helvetica,sans-serif;
+}
+
+.menubar h3{
+	float: right;
+	margin-top: 30px;
+	font-family: sans-serif;
+}
+
+#image{
+	min-height: 550px;
+    background-image: url(brick.png);
+    text-align: center;
+}
+
+#image h1{
+	margin-top: 150px;
+	font-size: 90px;
+	color: #000000;
+	animation-name: main;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+	
+	transition: color ease-in 1.3s;
+    font-family: 'Lobster Two', cursive;
+}
+
+#img2{
+	position: relative;
+	top: 150px;
+	left: 450px;
+	transition: all 1s;
+	cursor: pointer;
+}
+
+#img2:hover{
+	transform: translateX(20px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes main{
+
+    0%{
+    	background-color: red;
+    }
+    14%{
+    	background-color: green;
+    }
+    28%{
+    	background-color: orange;
+    }
+    41%{
+    	background-color: blue;
+    }
+    56%{
+    	background-color: yellow;
+    }
+    68%{
+    	background-color: indigo;
+    }
+   100%{
+    	background-color: violet;
+    }
+
+
+
+}
